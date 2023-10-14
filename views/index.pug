@@ -1,0 +1,67 @@
+doctype html
+html
+  head
+    style
+      include ../static/style.css
+  body
+    nav#navbar.top
+        
+        ul
+            div#logo 
+                img(src="/static/img/logo.png")
+            li #[a(href="/") Home]
+            li #[a(href="/") About ]
+            li #[a(href="/") Services ]
+            li #[a(href="/") Class Info]
+            li #[a(href="/") Contact Us ]
+    
+    section#introSection 
+        div Welcome To My Dance Academy
+        div Eat Sleep Dance Repeat
+
+    section#missionSection 
+        h2 Our Mission
+        
+        div.card 
+            h3 Dance Perfection
+            div.card-box 
+                div.card-img 
+                    img(src="/static/img/img2.png")
+                div.card-content 
+                    p This is the best dance academy
+        
+        div.card 
+            h3 Dance The Way You Like
+            div.card-box 
+                div.card-img 
+                    img(src="/static/img/img1.png")
+                div.card-content 
+                    p This is the best dance academy
+        
+
+        div.card 
+            h3 Expert Teaching
+            div.card-box 
+                div.card-img 
+                    img(src="/static/img/img3.png")
+                div.card-content 
+                    p This is the best dance academy
+        
+
+    
+    section#sponsorsSection 
+        h2 Our Sponsors
+
+        div#icons 
+            img(src="/static/img/photos.png") 
+            img(src="/static/img/youtube.png")
+            img(src="/static/img/facebook.png")
+            img(src="/static/img/instagram.png")
+        
+        
+    
+    footer#footer 
+        | Copyright © 2023 Mydanceacademy.com | All rights reserved
+        
+    script
+      include ../static/index.js

@@ -1,0 +1,54 @@
+extends base.pug
+
+block scripts
+  script(src='/static/index.js')
+
+block style
+    style
+      include ../static/style.css
+
+block content 
+    section#introSection 
+        div Welcome To My Dance Academy
+        div Eat Sleep Dance Repeat
+
+    section#missionSection 
+        h2 Our Mission
+        
+        div.card 
+            h3 Dance Perfection
+            div.card-box 
+                div.card-img 
+                    img(src="/static/img/img2.png")
+                div.card-content 
+                    p We want that your dance steps should speak your level of perfection.
+                    p we will help you in acheiving that perfection in your dance through ou expert trainers
+        
+        div.card 
+            h3 Dance The Way You Like
+            div.card-box 
+                div.card-img 
+                    img(src="/static/img/img1.png")
+                div.card-content 
+                    p We want that you should dance in a way that you like we will help in 
+                    p acheiving excellence in your way of dancing. So,Dance the way you like 
+
+        div.card 
+            h3 Expert Teaching
+            div.card-box 
+                div.card-img 
+                    img(src="/static/img/img3.png")
+                div.card-content 
+                    p We have expert Trainers which will help you in learning excellence in 
+                    p your dancing steps.They are your friend cum trainers
+        
+
+    
+    section#sponsorsSection 
+        h2 Our Sponsors
+
+        div#icons 
+            img(src="/static/img/photos.png") 
+            img(src="/static/img/youtube.png")
+            img(src="/static/img/facebook.png")
+            img(src="/static/img/instagram.png")    
